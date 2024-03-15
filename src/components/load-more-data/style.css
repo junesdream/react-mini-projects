@@ -1,0 +1,53 @@
+.load-more-container {
+    background: black;
+    display:  flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.product{
+    background: white;
+    padding: 20px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product img{
+    width: 200px;
+    height: 200px;
+}
+
+.button-container{
+    margin: 10px;
+    padding: 10px;
+}
+
+.button-container button{
+    padding: 10px;
+    background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #F68B1D, 
+      #FCED00,
+      #009E4F,
+      #00AAC3,
+      #732982
+    );
+  animation:slidebg 2s linear infinite;
+    color: #fff;
+    border: #009E4F solid 3px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
